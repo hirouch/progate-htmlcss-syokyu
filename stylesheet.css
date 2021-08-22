@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* CSSのリセット */
 html, body,
 ul, ol, li,
@@ -19,7 +20,6 @@ header {
   background-color: #26d0c9;
   color: #fff;
   height: 90px;
-  
 }
 
 header .logo {
@@ -28,14 +28,19 @@ header .logo {
 }
 
 header div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
-header div ul{
+header div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 33px;
 }
 
-header div ul li{
-  margin:0 20px;
+header div ul li {
+  margin: 0 20px;
 }
+/*# sourceMappingURL=stylesheet.css.map */

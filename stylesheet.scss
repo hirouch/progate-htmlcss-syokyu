@@ -1,0 +1,36 @@
+/* CSSのリセット */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+  .logo{
+    margin: 20px 40px;
+    font-size: 36px;
+  }
+  div{
+    display: flex;
+    ul {
+      display: flex;
+      margin-top: 33px;
+      li {
+        margin:0 20px;
+      }
+    }
+  }
+}
