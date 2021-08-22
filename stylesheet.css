@@ -60,4 +60,32 @@ header div ul li {
 .contents-title .title-text {
   font-size: 60px;
 }
+
+.contents-lesson {
+  margin-left: 80px;
+  margin-bottom: 100px;
+}
+
+.contents-lesson .lesson-title {
+  font-size: 28px;
+  border-bottom: solid 2px #dee7ec;
+  padding-bottom: 15px;
+}
+
+.contents-lesson .lesson-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+}
+
+.contents-lesson .lesson-contents .lesson-box {
+  margin-right: 40px;
+}
+
+.contents-lesson .lesson-contents .lesson-box .lesson-title {
+  margin: 30px 0;
+  border: none;
+  font-size: 24px;
+}
 /*# sourceMappingURL=stylesheet.css.map */
