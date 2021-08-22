@@ -124,4 +124,24 @@ header div ul li {
   color: #889eab;
   background-color: #dee7ec;
 }
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #2f5167;
+  color: #fff;
+  padding: 40px;
+}
+
+footer .logo {
+  font-size: 32px;
+}
+
+footer .footer-list ul li {
+  margin-bottom: 20px;
+}
 /*# sourceMappingURL=stylesheet.css.map */

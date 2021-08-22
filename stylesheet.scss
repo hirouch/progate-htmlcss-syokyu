@@ -109,3 +109,21 @@ header {
     }
   }
 }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2f5167;
+  color: #fff;
+  padding: 40px;
+  .logo {
+    font-size: 32px;
+  }
+  .footer-list {
+    ul {
+      li {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
