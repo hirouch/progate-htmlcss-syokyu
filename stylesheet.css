@@ -43,4 +43,21 @@ header div ul {
 header div ul li {
   margin: 0 20px;
 }
+
+.contents-title {
+  margin: 100px 80px;
+  font-weight: bold;
+}
+
+.contents-title .title-helloworld {
+  font-size: 140px;
+}
+
+.contents-title .title-helloworld span {
+  color: #ff4a4a;
+}
+
+.contents-title .title-text {
+  font-size: 60px;
+}
 /*# sourceMappingURL=stylesheet.css.map */

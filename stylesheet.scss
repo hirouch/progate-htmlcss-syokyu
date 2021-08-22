@@ -34,3 +34,17 @@ header {
     }
   }
 }
+
+.contents-title {
+  margin: 100px 80px;
+  font-weight: bold;
+  .title-helloworld {
+    font-size: 140px;
+    span {
+      color: #ff4a4a;
+    }
+  }
+  .title-text {
+    font-size: 60px;
+  }
+}
