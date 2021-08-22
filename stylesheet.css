@@ -44,20 +44,20 @@ header div ul li {
   margin: 0 20px;
 }
 
-.contents-title {
+.top-title {
   margin: 100px 80px;
   font-weight: bold;
 }
 
-.contents-title .title-helloworld {
+.top-title .title-helloworld {
   font-size: 140px;
 }
 
-.contents-title .title-helloworld span {
+.top-title .title-helloworld span {
   color: #ff4a4a;
 }
 
-.contents-title .title-text {
+.top-title .title-text {
   font-size: 60px;
 }
 
@@ -66,7 +66,7 @@ header div ul li {
   margin-bottom: 100px;
 }
 
-.contents-lesson .lesson-title {
+.contents-lesson .top-title {
   font-size: 28px;
   border-bottom: solid 2px #dee7ec;
   padding-bottom: 15px;
@@ -87,5 +87,41 @@ header div ul li {
   margin: 30px 0;
   border: none;
   font-size: 24px;
+}
+
+.contents-title {
+  font-size: 28px;
+  border-bottom: solid 2px #dee7ec;
+  padding-bottom: 15px;
+}
+
+.contents-form {
+  margin: 100px 80px;
+}
+
+.contents-form form {
+  width: 400px;
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+.contents-form form ul li label {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.contents-form form ul li input, .contents-form form ul li textarea {
+  width: 100%;
+  display: block;
+  padding: 20px;
+  border: solid 1px #dee7ec;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.contents-form form ul li .button {
+  color: #889eab;
+  background-color: #dee7ec;
 }
 /*# sourceMappingURL=stylesheet.css.map */

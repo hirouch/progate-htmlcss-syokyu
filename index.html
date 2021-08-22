@@ -21,7 +21,7 @@
     </div>
   </header>
 
-  <div class="contents-title">
+  <div class="top-title">
     <div class="title-helloworld">
       HELLO WORLD<span>.</span>
     </div>
@@ -31,7 +31,7 @@
   </div>
 
   <div class="contents-lesson">
-    <h3 class="lesson-title">学べるレッスン</h3>
+    <h3 class="contents-title">学べるレッスン</h3>
     <div class="lesson-contents">
       <div class="lesson-box">
         <img src="https://prog-8.com/shared/images/lesson/html/study/html.svg" alt="">
@@ -51,5 +51,26 @@
       </div>
     </div>
   </div>
+
+  <div class="contents-form">
+    <h3 class="contents-title">お問い合わせ</h3>
+    <form method="POST" action="sample.cgi">
+      <ul>
+        <li>
+          <label for="name">メールアドレス（必須）</label>
+          <input type="text" id="name" name="user_name" />
+        </li>
+        <li>
+          <label for="msg">お問い合わせ内容（必須）</label>
+          <textarea id="msg" name="user_message"></textarea>
+        </li>
+        <li>
+          <label for="msg">※必須項目は必ずご入力ください</label>
+          <input type="submit" value="送信" class="button">
+        </li>
+      </ul>
+    </form>
+  </div>
+
 </body>
 </html>
